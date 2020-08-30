@@ -1,0 +1,66 @@
+.container {
+  background-color: silver;
+  display: grid;
+  grid-template-areas:
+    "result result result result"
+    "one two three multiply"
+    "four five six plus"
+    "seven eight nine subtract"
+    "equal equal equal divide";
+  max-width: 460px;
+  height: 400px;
+  margin: auto;
+  text-align: center;
+}
+button {
+  font-size: 24px;
+}
+
+#result {
+  grid-area: result;
+  background-color: darkcyan;
+  margin: 18px;
+  border-radius: 28%;
+}
+#one {
+  grid-area: one;
+}
+#two {
+  grid-area: two;
+}
+#three {
+  grid-area: three;
+}
+#multiply {
+  grid-area: multiply;
+}
+#four {
+  grid-area: four;
+}
+#five {
+  grid-area: five;
+}
+#six {
+  grid-area: six;
+}
+#plus {
+  grid-area: plus;
+}
+#seven {
+  grid-area: seven;
+}
+#eight {
+  grid-area: eight;
+}
+#nine {
+  grid-area: nine;
+}
+#subtract {
+  grid-area: subtract;
+}
+#divide {
+  grid-area: divide;
+}
+#equal {
+  grid-area: equal;
+}

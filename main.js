@@ -18,7 +18,7 @@ const divide = (num1, num2) => {
   return num1 / num2;
 };
 
-// caculator
+// CALCULATOR
 const operate = (num1, operater, num2) => {
   return operater(num1, num2);
 };
