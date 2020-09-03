@@ -6,7 +6,7 @@
     "one two three multiply"
     "four five six plus"
     "seven eight nine subtract"
-    "equal equal clear divide";
+    "equal zero clear divide";
   max-width: 460px;
   height: 400px;
   margin: auto;
@@ -66,4 +66,7 @@ button {
 }
 #clear {
   grid-area: clear;
+}
+#zero {
+  grid-area: zero;
 }
