@@ -2,7 +2,7 @@
   background-color: silver;
   display: grid;
   grid-template-areas:
-    "result result result result"
+    "total total result result"
     "one two three multiply"
     "four five six plus"
     "seven eight nine subtract"
@@ -18,9 +18,8 @@ button {
 
 #result {
   grid-area: result;
-  background-color: darkcyan;
-  margin: 18px;
-  border-radius: 28%;
+  margin: auto;
+  border: 2px dotted darkmagenta;
 }
 #one {
   grid-area: one;
@@ -69,4 +68,9 @@ button {
 }
 #zero {
   grid-area: zero;
+}
+#total {
+  grid-area: total;
+  margin: auto;
+  border: 2px dotted darkmagenta;
 }
